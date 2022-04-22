@@ -7,10 +7,10 @@ This HOWTO documents how to install Raspberry Pi OS 64-bit on a Raspberry Pi 3B+
 ## Prerequisites
 
 * One [Raspberry Pi](https://www.raspberrypi.org/).
-  - Tested on rpi4gm35 ([Raspberry Pi 4B 4GB](https://www.amazon.com/Raspberry-Model-2019-Quad-Bluetooth/dp/B07TC2BK1X))
+  - Tested on rpi3mv38 ([Raspberry Pi 3B 4GB](https://www.amazon.com/Raspberry-Model-2019-Quad-Bluetooth/dp/B07TC2BK1X))
 * One MicroSD card of at least 4GB.
   - **IMPORTANT**: The card should be blank, or at least should not contain any important data since it will be completely erased.
-  - Tested with a [SanDisk Ultra 256 GB MicroSDXC](https://www.amazon.it/SanDisk-microSDXC-adattatore-prestazioni-Rosso-Grigio/dp/B08GY8NHF2)
+  - Tested with a [SanDisk Ultra 16 GB MicroSDXC](https://www.amazon.it/SanDisk-microSDXC-adattatore-prestazioni-Rosso-Grigio/dp/B08GY8NHF2)
 * One desktop PC or laptop for formatting the SD card and controlling the RPi
   - OS: A recent version of Windows or Linux or macOS
   - The PC should have a MicroSDHC card reader.
@@ -40,7 +40,7 @@ Alternatively, insert the MicroSD into the USB card reader, then plug the USB ca
 Launch the [Raspberry Pi Imager](https://www.raspberrypi.com/software/) and select the following options
 
 * Sistema operativo: Raspberry Pi OS (64-bit)
-* Scheda SD: MXT-USB Storage Device USB Device - 255.9 GB
+* Scheda SD: MXT-USB Storage Device USB Device - 15.9 GB
 
 then click "SCRIVI".
 
@@ -57,7 +57,7 @@ Click "SI".
 
 > **Scrittura completata senza errori**
 >
-> Scrittura di **Raspberry Pi OS (32-bit)** in **MXT-USB Storage Device USB Device** completata.
+> Scrittura di **Raspberry Pi OS (64-bit)** in **MXT-USB Storage Device USB Device** completata.
 >
 > Ora puoi rimuovere la scheda SD dal lettore
 >
@@ -67,13 +67,13 @@ Remove the MicroSD from your laptop
 
 ### First boot of the RPi with the new MicroSD card
 
-(2022-01-12 08:35 CET)
+(2022-04-21 14:35 CET)
 
 * Insert the MicroSD card into your Raspberry Pi.
 * Connect a display using a MicroHDMI-to-HDMI cable
-* Connect a USB keyboard to the first USB 2.0 port of the RPi4
-* Connect a USB mouse to the second USB 2.0 port of the RPi4
-* Connect a 5Vdc, 3A power supply to the USB-C port of the RPi4
+* Connect a USB keyboard to the first USB 2.0 port of the RPi
+* Connect a USB mouse to the second USB 2.0 port of the RPi
+* Connect a 5Vdc, 3A power supply to the USB-C port of the RPi
 
 Turn on the power supply and wait for Raspberry Pi OS to boot.
 
